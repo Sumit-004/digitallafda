@@ -40,7 +40,7 @@ const { pathname } = useLocation();
         <Route path="/our-work" element={<OurWork />} />
       </Routes>
       <Footer />
-      <img src={up} onClick={scrollToTop} className='fixed bottom-10 right-10 w-13 cursor-pointer transition-all duration-300' alt="" />
+      <img src={up} onClick={scrollToTop} className='fixed md:bottom-10 bottom-7 md:right-10 right-5 md:w-13 w-10 cursor-pointer transition-all duration-300' alt="" />
 
     </div>
   )

@@ -30,19 +30,21 @@ const Client = () => {
     ]
 
     return (
-        <div className='mt-35 mb-14 flex flex-col gap-10'>
+        <div className='md:mt-30 mt-22 mb-14 flex flex-col gap-10'>
             <div className='flex justify-center items-center gap-2'>
-                <h1 className='text-5xl font-bold'>
+                <h1 className='md:text-5xl text-3xl font-bold'>
                     Our Client
                 </h1>
                 <img className='w-20' src={logo} alt="" />
             </div>
 
-            <div className="w-full px-30 grid grid-cols-2 md:grid-cols-4 gap-16 justify-items-center">
+            <div className="w-full px-6 sm:px-10 md:px-20 lg:px-30 
+                grid grid-cols-2 md:grid-cols-4 
+                gap-6 sm:gap-10 md:gap-16 justify-items-center">
                 {client.map((company, index) => (
                     <div
                         key={index}
-                        className="w-[120px] h-[120px] flex items-center justify-center"
+                        className="w-[100px] sm:w-[120px] h-[100px] sm:h-[120px] flex items-center justify-center"
                     >
                         <img
                             className="max-w-full max-h-full object-contain"
@@ -52,6 +54,7 @@ const Client = () => {
                     </div>
                 ))}
             </div>
+
 
 
 

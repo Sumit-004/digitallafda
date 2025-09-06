@@ -1,11 +1,14 @@
 import React from 'react'
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
-
+import bg from '../assets/map-bg.jpeg'
 
 const Contact = () => {
       return (
-            <div className='w-full h-full flex justify-center mt-32 mb-20'>
-                  <div className=' w-[45%]  flex flex-col gap-5 mt-10 ml-10  px-5 py-6 bg-amber-300 rounded-2xl'>
+            <div className='w-full h-full flex justify-center mt-32 mb-20' 
+            style={{backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat",    backgroundSize: "cover",
+}}
+            >
+                  <div className=' w-[45%] flex flex-col gap-5 mt-10 ml-10 px-5 py-6 bg-white shadow-2xl rounded-2xl'>
                         <div className='  flex flex-col gap-3 '>
                               <p className='font-bold text-3xl'> Apke ek ek Sawal Humaare Do Do jawad</p>
                               <p className='font-bold text-xl'>Higha Digital pvt Ltd.</p>
@@ -13,16 +16,16 @@ const Contact = () => {
                         </div>
                         <div className='flex flex-col gap-5'>
                               <div className='flex gap-3 w-10'>
-                                    <input type="text" placeholder='NAME*' className='font-bold w-35 p-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
-                                    <input type="text" placeholder='Email*' className='font-bold w-35 p-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
+                                    <input type="text" placeholder='Name*' className='w-35 px-3 py-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
+                                    <input type="text" placeholder='Email*' className='w-35 px-3 py-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
                               </div>
                               <div className='flex gap-3 w-10'>
-                                    <input type="text" placeholder='Phone Number' className='font-bold w-35 p-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
-                                    <input type="text" placeholder='State' className='font-bold w-35 p-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
+                                    <input type="text" placeholder='Phone Number' className='w-35 px-3 py-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
+                                    <input type="text" placeholder='State' className='w-35 px-3 py-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300' />
                               </div>
                               
                                     <div className='flex relative'>
-                                          <textarea type="text" placeholder='About your brand?' className='font-bold w-70 h-40 p-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300 flex ' /> 
+                                          <textarea type="text" placeholder='About your brand?' className='w-70 h-40 px-3 py-1 rounded-sm border-1 border-black focus:outline-none focus:ring-2  transition-all duration-300 flex ' /> 
                                           <span><FaRegArrowAltCircleRight className='absolute -bottom-2 left-65 size-10 cursor-pointer hover:size-11 duration-300' /></span>
                                     </div>
                              
