@@ -28,13 +28,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 z-60 py-5 transition-all duration-300 ease-in-out w-full bg-white flex justify-between md:px-14 px-4 border-b border-gray-300 ${
-        isScrolled ? "md:h-[14vh] h-[13vh] shadow-md bg-opacity-90" : "md:h-[17vh] h-[13vh]"
+      className={`fixed top-0 z-60 py-4 transition-all duration-300 ease-in-out w-full bg-white flex justify-between md:px-14 px-4 border-b border-gray-300 ${
+        isScrolled ? "md:h-[14vh] h-[10vh] shadow-md bg-opacity-90" : "md:h-[17vh] h-[10vh]"
       }`}
     >
       {/* Logo */}
       <div onClick={() => navigate("/")} className="h-full flex items-center">
-        <img src={Logo} alt="logo" className="md:w-70 w-38 cursor-pointer" />
+        <img src={Logo} alt="logo" className="md:w-70 w-55 cursor-pointer" />
       </div>
 
       {/* Desktop Menu */}
@@ -53,7 +53,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu Button */}
-      <div className="flex items-center bg-[#1C352D] px-2 rounded-md text-white md:hidden">
+      <div className="flex items-center bg-[#1C352D] px-4 rounded-md text-white md:hidden">
         {menuOpen ? (
           <RxCross1
             className="text-2xl cursor-pointer"
@@ -69,7 +69,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-[12vh] left-0 w-full bg-white shadow-md md:hidden">
+        <div className="absolute top-[10vh] left-0 w-full bg-white shadow-md md:hidden">
           <ul className="flex flex-col gap-6 py-6 px-6 text-lg">
             {menuItems.map((item, index) => (
               <li

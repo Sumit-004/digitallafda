@@ -30,9 +30,9 @@ const Client = () => {
     ]
 
     return (
-        <div className='md:mt-30 mt-22 mb-14 flex flex-col gap-10'>
+        <div className='md:mt-37 mt-33 mb-14 flex flex-col gap-10'>
             <div className='flex justify-center items-center gap-2'>
-                <h1 className='md:text-5xl text-3xl font-bold'>
+                <h1 className='md:text-5xl text-4xl font-bold'>
                     Our Client
                 </h1>
                 <img className='w-20' src={logo} alt="" />

@@ -15,10 +15,10 @@ const Team = () => {
   ]
 
   return (
-    <div className="w-full md:mt-22 mt-15">
+    <div className="w-full md:mt-27 mt-25">
       {/* Header */}
       <div className="px-6 md:px-40 py-10 md:py-16 flex flex-col md:flex-row items-center gap-8 md:gap-10">
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="md:w-1/2 text-center md:text-center">
           <h1 className="text-4xl md:text-6xl font-bold">Our Team</h1>
         </div>
         <div className="md:w-1/2 text-gray-700 text-base md:text-lg leading-relaxed text-center md:text-left px-2 md:px-0">

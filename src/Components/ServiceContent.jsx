@@ -108,11 +108,11 @@ const ServiceContent = () => {
           <h2 className="text-2xl md:text-4xl font-bold mb-4">
             {activeService.title}
           </h2>
-          <div className="flex justify-center w-full max-w-[400px] mb-4">
+          <div className="flex justify-center w-full max-w-[480px] mb-4">
             <img
               src={activeService.image}
               alt={activeService.title}
-              className="object-cover rounded-lg w-full h-48 md:h-64"
+              className="object-cover rounded-lg w-full h-48 md:h-85"
             />
           </div>
           <p className="text-sm md:text-lg">{activeService.description}</p>

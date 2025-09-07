@@ -47,10 +47,10 @@ const Footer = () => {
 
                     {/* Social Icons */}
                     <div className="flex-1 flex sm:flex-col flex-row justify-center items-center gap-6">
-                        <img className="w-8 md:w-10 hover:rotate-6 cursor-pointer" src={insta} alt="Instagram" />
-                        <img className="w-8 md:w-10 hover:rotate-6 cursor-pointer" src={twitter} alt="Twitter" />
-                        <img className="w-8 md:w-10 hover:rotate-6 cursor-pointer" src={fb} alt="Facebook" />
-                        <img className="w-8 md:w-10 hover:rotate-6 cursor-pointer" src={linkedin} alt="LinkedIn" />
+                        <img className="w-8 md:w-10 hover:rotate-7 cursor-pointer" src={insta} alt="Instagram" />
+                        <img className="w-8 md:w-10 hover:rotate-7 cursor-pointer" src={twitter} alt="Twitter" />
+                        <img className="w-8 md:w-10 hover:rotate-7 cursor-pointer" src={fb} alt="Facebook" />
+                        <img className="w-8 md:w-10 hover:rotate-7 cursor-pointer" src={linkedin} alt="LinkedIn" />
                     </div>
                 </div>
             </div>

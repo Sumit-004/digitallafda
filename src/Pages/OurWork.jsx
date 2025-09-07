@@ -31,7 +31,7 @@ const OurWork = () => {
       : work.filter((item) => item.category === activeCategory)
 
   return (
-    <div className="w-full flex flex-col gap-10 md:mt-25 mt-22 mb-20 px-6 md:px-16">
+    <div className="w-full flex flex-col gap-10 md:mt-25 mt-33 mb-20 px-6 md:px-16">
       {/* Heading Section */}
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:px-40 md:py-16 ">
         <div className="text-4xl md:text-6xl lg:text-7xl w-full md:w-1/2 text-center md:text-left font-bold">
